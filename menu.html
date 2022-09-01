@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="cafe,カフェ,dog,犬,イヌ">
+    <meta name="description" content="ワンちゃん、同伴可、CafeDogへようこそ">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>cafedog_menu</title>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="iconsvg/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 414px)">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+</head>
+
+<body>
+    <header id="menu">
+        <div class="header">
+            <h1 class="logo_white"> <a href="#"><img src="images/index-assets/top_log_white.png" width="200px"
+                        alt="cafedoglog"></a></h1>
+            <h1 class="logo_color"> <a href="#"><img src="images/index-assets/stamp_log_color.png" width="200px"
+                        alt="cafedoglog"></a></h1>
+        </div>
+    </header>
+    <nav class="g_nav">
+        <div class="index_burger"></div>
+        <ul class="fixed">
+            <li id="nav_cafeDog"><a href="index.html">Cafe Dog</a></li>
+            <li id="nav_menu"> <a href="menu.html">Menu</a> </li>
+            <li> <a href="index.html#info">店舗情報</a> </li>
+            <li> <a href="online_store.html" target="_blank" rel="noopener noreferrer">Online Store</a> </li>
+            <li id="nav_reserve"> <a href="reserve.html">予約する</a> </li>
+        </ul>
+    </nav>
+
+    <div id="topicpath">
+        <ul>
+            <li><a href="index.html">ホーム</a>&gt;</li>
+            <li>&ensp;Menu</li>
+        </ul>
+    </div>
+    <main>
+        <section id="cafe_menu">
+            <h2 class="menu_h2">カフェメニュー</h2>
+            <div class="grid_columns3">
+                <!-- <div id="menu_top"> -->
+                <figure><img src="images/cafemenu-assets/menu_top_left.jpeg" alt="フレッシュサラダ">
+                    <figcaption> 鶏むね肉と7種のフレッシュサラダ<br>
+                        <small>ソースは２種類からお選びいただけます。</small>
+                        <p>&yen;600</p>
+                    </figcaption>
+                </figure>
+                <figure><img src="images/cafemenu-assets/menu_top_center.jpeg" alt="ポーチドエッグサラダ">
+                    <figcaption>ポーチドエッグサラダとバケット<br>
+                        <small>アボカドはポテトに変更できます。</small>
+                        <p>&yen;650</p>
+                    </figcaption>
+                </figure>
+                <figure><img src="images/cafemenu-assets/menu_top_right.jpg" alt="ハンバーガー">
+                    <figcaption> ビーフ100&percnt;満点ハンバーガー<br>
+                        <small>ミニサイズもついてくる</small>
+                        <p>&yen;770</p>
+                    </figcaption>
+                </figure>
+                <!-- </div> -->
+                <!-- <div id="menu_center"> -->
+                <figure><img src="images/cafemenu-assets/menu_center_left.jpeg" alt="フレンチトースト">
+                    <figcaption> ベリーとバナナのフレンチトースト<br>
+                        <small>メープルシロップ掛け</small>
+                        <p>&yen;770</p>
+                    </figcaption>
+                </figure>
+                <figure><img src="images/cafemenu-assets/menu_center_center.jpeg" alt="ポタージュスープ">
+                    <figcaption> 濃厚なめらかカボチャの<br>ポタージュスープ
+                        <p>&yen;350</p>
+                    </figcaption>
+                </figure>
+                <figure><img src="images/cafemenu-assets/menu_center_right.jpeg" alt="特製生ハムピザ">
+                    <figcaption> 無農薬トマトソースを使用した<br>
+                        特製生ハムピザ
+                        <p>&yen;1&#044;100</p>
+                    </figcaption>
+                </figure>
+                <!-- </div> -->
+                <!-- <div id="menu_bottom"> -->
+                <figure id="pickUp1"><img src="images/cafemenu-assets/menu_bt_left.jpeg" alt="ローストビーフサンド">
+                    <figcaption> パルメザン香る<br>ローストビーフサンド
+                        <p>&yen;880</p>
+                    </figcaption>
+                </figure>
+                <figure id="pickUp2"><img src="images/cafemenu-assets/menu_bt_center.jpeg" alt="パンケーキ">
+                    <figcaption> フレッシュブルーベリーと<br>
+                        トロッと蜂蜜のふわふわパンケーキ
+                        <p>&yen;1&#044;100</p>
+                    </figcaption>
+                </figure>
+                <figure id="pickUp3"><img src="images/cafemenu-assets/menu_bt_right.jpeg" alt="バターチキンカレー">
+                    <figcaption> スパイス香るバターチキンカレー&amp;<br>
+                        本場のバスマティライス
+                        <p>&yen;1&#044;350</p>
+                    </figcaption>
+                </figure>
+                <!-- </div> -->
+            </div>
+
+        </section>
+        <section id="drink_menu">
+            <div class="center_box">
+                <h2 class="menu_h2">Drinkメニュー</h2>
+                <div class="grid_columns2">
+                    <dl id="drink_menu_list">
+                        <dt>コーヒー（ホット&ensp;&frasl;&ensp;アイス）</dt>
+                        <dd>&yen;280</dd>
+                        <dt>紅茶（ホット&ensp;&frasl;&ensp;アイス）</dt>
+                        <dd>&yen;300</dd>
+                        <dt>カフェオレ（ホット&ensp;&frasl;&ensp;アイス）</dt>
+                        <dd>&yen;350</dd>
+                        <dt>ジンジャエール（アイス）</dt>
+                        <dd>&yen;450</dd>
+                        <dt>100&percnt;リンゴジュース（アイス）</dt>
+                        <dd>&yen;450</dd>
+                    </dl>
+                    <p><img src="images/cafemenu-assets/drink_menu_img.png" alt=""></p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div>
+            <p><small>Copyright &copy; 2022 Rie chiba.</small></p>
+            <ul>
+                <li><a href="info.html"><span class="icon-mail2"></span></a></li>
+                <li><a href="#"><span class="icon-facebook"></span></a></li>
+                <li><a href="#"><span class="icon-instagram"></span></a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
